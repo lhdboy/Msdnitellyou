@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="搜索"
+        android:showAsAction="always|collapseActionView" />
+
+    <group>
+        <item android:title="捐赠"
+            android:id="@+id/donate_btn"/>
+        <item android:title="网页版"
+            android:id="@+id/website_btn"/>
+    </group>
+
+    <item android:title="退出"
+        android:id="@+id/exit_btn"/>
+</menu>
